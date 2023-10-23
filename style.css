@@ -9,6 +9,7 @@ html, body {
     font-family: var(--fonte1);
     background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url("imagem/fundo.jpg");
     background-repeat: no-repeat;
+    background-position: center center;
     position: relative; 
     
 }
