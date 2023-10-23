@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url("imagem/fundo.jpg");
+    position: relative; /* Adicione esta linha */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+}
+
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#nameInput {
+    margin: 30px;
+    width: 200px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+}
+
+#button {
+    background-color: rgb(0, 0, 0); /* Substitua os valores pelos componentes R, G, e B desejados */
+    color: #ffffff; /* Define a cor do texto como branco (outra cor de texto se preferir) */
+}
+button:hover {
+    text-decoration: none;
+    background-color: rgb(85, 74, 236);
+    color: #ffffff;
+}
+
+#output {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed; /* Define o posicionamento como fixo */
+    bottom: 0; /* Coloca o footer na parte inferior da janela */
+    width: 100%; /* Define a largura total da página */
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

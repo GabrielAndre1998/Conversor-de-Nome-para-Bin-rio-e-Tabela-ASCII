@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Nome para Binário e Tabela ASCII</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="faviconn.ico" type="image/x-icon">
+ 
+</head>
+<body>
+    <header>
+    <h1>Conversor de Nome para Binário e Tabela ASCII</h1>
+    </header>
+    
+    <input type="text" id="nameInput" placeholder="Digite seu nome completo">
+    <button onclick="convertToBinaryAndAscii()">Converter</button>
+    <div id="output"></div>
+
+    <script>
+        function convertToBinaryAndAscii() {
+            const name = document.getElementById('nameInput').value;
+            let binaryResult = '';
+            let asciiResult = '';
+
+            for (let i = 0; i < name.length; i++) {
+                const charCode = name.charCodeAt(i);
+                asciiResult += `${name[i]}: ${charCode} | `;
+                binaryResult += `${name[i]}: ${charCode.toString(2)} | `;
+            }
+
+            document.getElementById('output').innerHTML = `Tabela ASCII:<br>${asciiResult}<br><br>Binário:<br>${binaryResult}`;
+        }
+    </script>
+
+      <footer>
+        <p>
+            Site criado por <a href="https://github.com/GabrielAndre1998" target="_blank">Gabriel André Rodrigues</a> 2023
+        </p>
+    </footer>
+</body>
+</html>
