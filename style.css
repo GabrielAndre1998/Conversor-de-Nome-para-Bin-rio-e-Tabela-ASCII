@@ -8,7 +8,7 @@ html, body {
     background-color: darkgray;
     font-family: var(--fonte1);
     background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url("imagem/fundo.jpg");
-    position: relative; /* Adicione esta linha */
+    position: relative; 
 }
 
 body {
@@ -31,13 +31,13 @@ header > h1 {
 
 #nameInput {
     margin: 30px;
-    width: 200px; /* Defina a largura desejada */
-    height: 30px; /* Defina a altura desejada */
+    width: 200px; 
+    height: 30px; 
 }
 
 #button {
-    background-color: rgb(0, 0, 0); /* Substitua os valores pelos componentes R, G, e B desejados */
-    color: #ffffff; /* Define a cor do texto como branco (outra cor de texto se preferir) */
+    background-color: rgb(0, 0, 0); 
+    color: #ffffff; 
 }
 button:hover {
     text-decoration: none;
@@ -48,8 +48,8 @@ button:hover {
 #output {
     font-size: 20px;
     color: #fff;
-    font-weight: bold; /* Deixa o texto em negrito */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao texto */
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 a {
@@ -63,9 +63,9 @@ a:hover {
 }
 
 footer {
-    position: fixed; /* Define o posicionamento como fixo */
-    bottom: 0; /* Coloca o footer na parte inferior da janela */
-    width: 100%; /* Define a largura total da página */
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
     background-color: #000000;
     color: #fff;
     text-align: center;
